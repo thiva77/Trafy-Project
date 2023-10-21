@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <title>Trafy Academy</title>
+    <!-- <style>
+      .solution {
+        background-color: black;
+        color: white;
+        padding: 0.5rem;
+      }
+      .solution-container {
+        display: none;
+      }
+      .solution-list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 1rem;
+      }
+    </style> -->
+    <!-- <script>
+      const solutionList = () => {
+        const list = document.getElementById("solution-container");
+        if (list.style.display === "none") {
+          list.style.display = "block";
+        } else {
+          list.style.display = "none";
+        }
+      };
+    </script> -->
+  </head>
+  <body>
+    <header class="header">
+      <a href="Index.html" class="logo">
+        <img
+          class="logo"
+          src="logo-white.png"
+          alt="logo"
+          width="80px"
+          height="30px"
+        />
+      </a>
+      <button class="menu-icon" style="background-color: inherit;color: white;" onclick="toggleMenu()">&#9776;</button>
+      <nav class="navbar" id="navbar">
+        <button type="button" class="solution" onclick="solutionList()">
+          Solutions
+          <img class="dropdown-icon"
+            src="arrow-down-sign-to-navigate.png"
+            alt="down"
+            width="9px"
+            height="9px"
+          />
+        </button>
+        <a href="academy.html">Academy</a>
+        <a href="Resourse.html">Resources</a>
+        <a href="Startup.html">Startup Circle</a>
+        <a href="login.html">LogIn</a>
+        <button class="signup-button">SignUp</button>
+      </nav>
+    </header>
+    <div class="solution-container" id="solution-container">
+      <div class="solution-list" id="solution-list">
+        <div class="solution-item">
+          <h3>Website</h3>
+          <ul class="list">
+            <li>Starter</li>
+            <li >Premium</li>
+            <li>Advance</li>
+          </ul>
+        </div>
+        <div class="solution-item">
+          <h3>Apps</h3>
+          <ul>
+            <li>Premium-Android</li>
+            <li>Premium-Android +Ios</li>
+          </ul>
+        </div>
+        <div class="solution-item">
+          <h3>Digital Marketing</h3>
+          <ul>
+            <li>SEO</li>
+            <li>Lead generation</li>
+            <li>Email Marketing</li>
+            <li>Content Marketing</li>
+            <li>Social Media Marketing</li>
+          </ul>
+        </div>
+        <div class="solution-item">
+          <h3>Branding</h3>
+          <ul>
+            <li>Logo</li>
+            <li>Media Kit</li>
+            <li>Package Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="Script.js"></script>
+  </body>
+</html>
